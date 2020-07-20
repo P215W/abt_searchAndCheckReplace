@@ -16,7 +16,7 @@ async function wrapItAll(url) {
   await Promise.all([page.click("tfoot input"), page.waitForNavigation()]);
 
   // do stuff
-  await page.type("#ly_media_asset_cmt", "autom.");
+  await page.type("#ly_media_asset_cmt", "automated");
 
   try {
     await Promise.all([
